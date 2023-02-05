@@ -1,16 +1,16 @@
 let e1, e2, e3, e4, e5, e6, e7, e8;
 
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(300, 300);
   noStroke();
-  e1 = new Eye(250, 900, 100);
-  e2 = new Eye(164, 305, 230);
-  e3 = new Eye(400, 200, 200);
-  e4 = new Eye(640, 335, 250);
-  e5 = new Eye(250, 900, 100);
-  e6 = new Eye(164, 305, 150);
-  e7 = new Eye(400, 200, 190);
-  e8 = new Eye(500, 395, 185);
+  e1 = new Eye(25, 90, 10);
+  e2 = new Eye(7, 30, 25);
+  e3 = new Eye(40, 20, 20);
+  e4 = new Eye(64, 10, 25);
+  e5 = new Eye(25, 90, 10);
+  e6 = new Eye(16, 40, 15);
+  e7 = new Eye(90, 90, 10);
+  e8 = new Eye(200, 395, 18);
 }
 
 function draw() {
