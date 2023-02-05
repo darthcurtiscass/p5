@@ -1,7 +1,7 @@
 let e1, e2, e3, e4, e5, e6, e7, e8;
 
 function setup() {
-  createCanvas(264, 300);
+  createCanvas(240, 295);
   noStroke();
   e1 = new Eye(50, 50, 90);
   e2 = new Eye(132, 150, 150);
